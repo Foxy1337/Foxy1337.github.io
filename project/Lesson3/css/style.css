@@ -94,12 +94,11 @@ body {
 	color: black;	
 	background-color: #e1e1e1;
 }
-.Bottom_memu > .copypast {
+.copypast {
 	font-size:14.67px; /* Не забываем восстановить нормальные значения */
 	line-height:normal;
 	letter-spacing:normal;
-	display: table;
-	float: left;
+	float: right;
 	padding: 12px 24px;
 	background-color: #e1e1e1;
 }
