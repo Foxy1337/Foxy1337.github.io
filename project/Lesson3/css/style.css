@@ -98,11 +98,8 @@ body {
 	font-size:14.67px; /* Не забываем восстановить нормальные значения */
 	line-height:normal;
 	letter-spacing:normal;
-	display:inline-block;
-	//display:inline;
 	position: absolute;
-	right: 5;
-	width: 300px;
+	right: 48;
 	padding: 12px 24px;
 	background-color: #e1e1e1;
 }
