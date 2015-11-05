@@ -97,6 +97,8 @@ body {
 .copypast {
 	position: absolute;
 	right: 0;
+	width: 300px;
+	height: 40px;
 }
 .B_m:hover {
 	text-decoration: underline;
