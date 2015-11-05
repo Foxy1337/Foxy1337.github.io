@@ -99,6 +99,9 @@ body {
 	line-height:normal;
 	letter-spacing:normal;
 	display:inline;
+	position: absolute;
+	right: 300;
+	width: 300px;
 	padding: 12px 24px;
 	background-color: #e1e1e1;
 }
