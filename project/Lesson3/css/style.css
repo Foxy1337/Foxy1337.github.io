@@ -76,10 +76,9 @@ body {
 }
 .Bottom_memu {
 	font-size:0; /* убираем горизонтальные отступы */
-	line-height:0; /* ...и вертикальные в некоторых браузерах */
+	line-height:0;  /*...и вертикальные в некоторых браузерах */
 	letter-spacing:-1px; /* переубеждаем webkit'ы */
-	margin: 40px 46px 40px 46px;
-	/*padding-bottom: 100px;*/
+	margin: 40px 46px 120px 46px;	
 	background-color: #e1e1e1;	
 }
 .B_m {
@@ -87,12 +86,12 @@ body {
 	line-height:normal;
 	letter-spacing:normal;
 	display: -moz-inline-stack!important;
-	display:inline-block;
-	//display:inline;
 	zoom:1;
 	padding: 12px 24px;	
 	color: black;	
 	background-color: #e1e1e1;
+	display:inline;
+	float: left;
 }
 .copypast {
 	font-size:14.67px; /* Не забываем восстановить нормальные значения */
