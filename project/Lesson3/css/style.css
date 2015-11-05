@@ -98,6 +98,8 @@ body {
 	font-size:14.67px; /* Не забываем восстановить нормальные значения */
 	line-height:normal;
 	letter-spacing:normal;
+	display:inline-block;
+	//display:inline;
 	position: absolute;
 	right: 300;
 	width: 300px;
