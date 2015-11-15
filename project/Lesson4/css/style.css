@@ -24,7 +24,7 @@ body{
 .central{
 	width: 1000px;
 	height: 985px;
-	margin: 0px 151px 0px 128px;
+	margin: 0px auto;
 	background-color: #ffffff;
 	box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.75);
 }
@@ -86,13 +86,14 @@ body{
 }
 .menu li{
 	z-index:3;
+	display: inline-block;
 	position:relative;
 	float:left;
 	list-style: none;		
 }
 .menu ul{
 	z-index:3;
-	position: relative;
+	position: absolute;
 	display:none;	
 	top: 100%;	
 	box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.75);	
@@ -116,6 +117,7 @@ body{
 	background: #373737;
 	box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.75);		
 }
+
 .menu ul a{	
 	z-index:3;
 	padding:0px 10px;	
@@ -127,6 +129,13 @@ body{
 	color:#ffffff;
 	display: block;		
 	}
+.menu ul li {
+   position: absolute;
+   clear: both;
+   display: block;
+   float: left;
+   list-style: none; 
+  }
 .fon1 {  /* фон для левой колонки (серый) */
 	z-index:1;
 	height: 535px;
