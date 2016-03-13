@@ -19,5 +19,3 @@ if (exp < 0 ) {
 } else {
 	console.log( 'result = ', power(base, exp));
 }
-
-
